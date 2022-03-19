@@ -9,6 +9,7 @@
     rel="stylesheet" 
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./styles.css">
     <title>NASIMS</title>
 </head>
@@ -34,7 +35,7 @@
           id="navbarNavAltMarkup">
             <div class="navbar-nav d-none d-lg-flex ">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
               <a class="nav-link" href="#">News</a>
               <a class="nav-link">Contact</a>
               <a class="btn btn-success px-5">Login</a>
@@ -187,168 +188,185 @@
 
              <!-- cards -->
              <section class="programmes">
-               <div class="justify-content-center">
-                 <h4>Our Programmes</h4>
-                 <p>Our programmes are specifically designed to empower, 
-                   train and uplift millions of <br> abandoned Nigerians in every part of the country.</p>
-               </div>
-
-               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="container">
+                 <h2 class="text-center programmes-head">Our Programmes</h2>
+                  <p class="text-center programme-title mx-auto my-3">
+                    Our programmes are specifically designed to empower, train and uplift
+                    millions <br />
+                    of abandoned Nigerians in every part of the country.
+                  </p>
+              <div
+                id="carouselExampleControls"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-
-                      <div class="row row-cols-5 row-cols-md-3 g-4">
-                        <div class="col-md-6">
-                          <div class="card h-100">
-                            <img src="images/Photos/slider2.jpg" class="card-img-top" alt="woman">
-                            <div class="card-body">
-                              <h5 class="card-title">Government Enterprise and Empowerment Program (GEEP)</h5>
-                              <p class="card-text">
-                                The Government Enterprise and Empowerment Program was established to provide 
-                                financial support and training to businesses and 
-                                entrepreneurs at the bottom of the financial pyramid.</p>
-                            </div>
-                            <div class="card-footer">
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="card">
+                          <img src="./images/Photos/electri.jpg" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h4 class="card-title text-yellow">N-POWER</h4>
+                            <p class="card-text pb-4">
+                              The N-Power Program is built to address the issue of youth unemployment and help increase social development.
+                            </p>
+                            <form class="d-flex login">
+                      <button class="btn btn-lg bg-success" type="submit">Apply</button>
+                      <button class="btn btn-lg  btn-green" type="submit">Learn More</button>
+                    </form>
+                    
                           </div>
                         </div>
-                        <div class="col-md-6">
-                          <div class="card h-100">
-                            <img src="./images/Photos/slider1.jpg" class="card-img-top h-75" alt="girl-eating">
-                            <div class="card-body">
-                              <h5 class="card-title">National Home Grown School Feeding Program (NHGSFP)
-                              </h5>
-                              <p class="card-text">
-                                The National Home Grown School Feeding Program was created to provide 
-                                a nutritious and balanced meal to 5.5 million school children grades 1 to 3.
-                              </p>
-                            </div>
-                            <div class="card-footer">
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <div class="card">
+                          <img src="./images/Photos/slider3.jpg" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h4 class="card-title text-yellow">Conditional Cash Transfer (CCT)</h4>
+                            <p class="card-text pb-4">
+                              Nigeria's Conditional Cash Transfer program provides targeted cash transfers to the most vulnerable households with the long-term goal of lifting millions out of poverty.
+                            </p>
+                            <form class="d-flex login">
+                              <button class="btn btn-lg bg-success" type="submit">Apply</button>
+                              <button class="btn btn-lg  btn-green" type="submit">Learn More</button>
+                            </form>
+                            
                           </div>
                         </div>
-                      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-6 col-12">
+                        <div class="card">
+                          <img src="./images/Photos/slider2.jpg" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h4 class="card-title text-yellow">Government Enterprise and Empowerment Programme (GEEP)</h4>
+                            <p class="card-text pb-1"> 
+                              The Government Enterprise and Empowerment Program was established to provide
+                              financial support and training to businesses and entrepreneurs at the bottom of the financial pyramid.
+                            </p>
+                            <form class="d-flex login">
+                      <button class="btn btn-lg bg-success" type="submit">Apply</button>
+                      <button class="btn btn-lg  btn-green" type="submit">Learn More</button>
+                    </form> 
+                   
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12">
+                        <div class="card" style="width: 100%">
+                          <img src="./images/Photos/slider1.jpg" class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <h4 class="card-title text-yellow">National Home Grown School Feeding Program (NHGSFP)</h4>
+                            <p class="card-text pb-4">
+                              The National Home Grown School Feeding Program was created to provide a nutritious and balanced meal to 5.5 million school children grades 1 to 3.
+                            </p>
+                           <form class="d-flex login">
+                      <button class="btn btn-lg bg-success" type="submit">Apply</button>
+                      <button class="btn btn-lg  btn-green" type="submit">Learn More</button>
+                    </form>
+                    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-              <div class="carousel-item ">
-
-                <div class="row row-cols-5 row-cols-md-3 g-4">
-                  <div class="col-md-6">
-                    <div class="card h-100">
-                      <img src="images/Photos/slider4.jpg" class="card-img-top" alt="woman">
-                      <div class="card-body">
-                        <h5 class="card-title">Government Enterprise and Empowerment Program (GEEP)</h5>
-                        <p class="card-text">
-                          The Government Enterprise and Empowerment Program was established to provide 
-                          financial support and training to businesses and 
-                          entrepreneurs at the bottom of the financial pyramid.</p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card h-100">
-                      <img src="./images/Photos/slider2.jpg" class="card-img-top h-75" alt="girl-eating">
-                      <div class="card-body">
-                        <h5 class="card-title">National Home Grown School Feeding Program (NHGSFP)
-                        </h5>
-                        <p class="card-text">
-                          The National Home Grown School Feeding Program was created to provide 
-                          a nutritious and balanced meal to 5.5 million school children grades 1 to 3.
-                        </p>
-                      </div>
-                      <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                      </div>
-                    </div>
-                  </div>
                 
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
               </div>
               </div>
               </section>
-              <!-- cards -->
-
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/Photos/engineer.jpg" class="card-img-top" alt="engineer">
-      <div class="card-body">
-        <h5 class="card-title">N-Power Batch C
-        </h5>
-        <p class="card-text">
-          June 25, 2020
-          All empower batch c applicants are expected <br>
-           to update their profile
-          and take test for <br> possible shortlisting...
-          </p>
-      </div>
-      
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/Photos/call2.jpg" class="card-img-top" alt="customer-care">
-      <div class="card-body">
-        <h5 class="card-title">N-Power Customer Care
-        </h5>
-        <p class="card-text">
-          June 25, 2020
-
-          All enquires and complains should be <br> 
-          channeled through the N-Power customer <br> 
-          care line. Details are as follows:
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="./images/Photos/ict.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">NASIMS Test Portal
-        </h5>
-        <p class="card-text">
-          June 25, 2020
-          Please make sure your records are fully updated on the NASIMS portal before taking this test...
-          </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div class="container-fluid">
-  <a class="btn btn-success px-5 justify-content-center newspage">News Page</a>
-</div>
+          
+              <section class="news-section">
+                <div class="container">
+                  <h2 class="text-center news-head mt-5">Latest News</h2>
+                  <p class="text-center mx-auto my-3 news-desc text-muted">
+                    Keep up with the latest updates about programmes and events 
+                  </p>
+                  <div class="row news-body justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+                      <div class="card" >
+                        <img src="./images/Photos/engineer.jpg"  alt="...">
+                        <div class="card-body">
+                          <p class="text-muted news-date">June 25, 2020</p>
+                          <h5 class="card-title">N-Power Batch C</h5>
+                          <p class="card-text">All empower batch c applicants are expected to update their profile and take test for possible...</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+                      <div class="card" >
+                        <img src="./images/Photos/call.jpg"  alt="...">
+                        <div class="card-body">
+                          <p class="text-muted news-date">June 25, 2020</p>
+                          <h5 class="card-title">N-Power Customer Care</h5>
+                          <p class="card-text">All enquires and complains should be channeled through the N-Power customer care line. Details...</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 my-3 col">
+                      <div class="card" >
+                        <img src="./images/Photos/ict.jpg"  alt="...">
+                        <div class="card-body">
+                          <p class="text-muted news-date">June 25, 2020</p>
+                          <h5 class="card-title">NASIMS Test Portal</h5>
+                          <p class="card-text">Please make sure your records are fully updated on the NASIMS portal before taking this test...</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="text-center py-5">
+                      <a href="#" class="btn btn-success px-5 py-3">News Page</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          
+          
+                <div class="my-5 bg-dark py-5 justify-content-center align-items-center text-center text-white">
+                  <div class="container ">
+                    <span class="">Be the first to know</span>
+                    <h3>Follow us on our social media platforms for all the latest updates and applications news </h3>
+                  </div>
+                  <div class=" justify-content-space-between mt-4">
+                  <a class="text-white me-3" href="#"><i class="bi bi-facebook "></i></a>
+                     <a class="text-white me-3" href="#"><i class="bi bi-twitter "></i></a>
+                    <a class="text-white me-3" href="#"><i class="bi bi-instagram "></i></a>
+                </div>
+                </div>
+            
+          
+              <section class="questions">
+                <div class="row justify-content-center align-items-center mx-0">
+                  <div class="container">
+                    <h3 class="mt-5">Got Questions?</h3>
+                    <p class="text-center">For enquiries, complaints or requests, feel free to reach out to us. </p>
+                    <a href="#" class="btn btn-success questions-link px-5 py-3">Contact Us</a>
+                  </div>
+                </div>
+              </section>
+          
+              <div class="container-fluid py-5 my-5 footer text-center ">
+                <div class="justify-content-space-between text-decoration-none">
+                  <a class="text-white text-decoration-none me-4" href="#">Apply</a>
+                  <a class="text-white text-decoration-none me-4" href="#">About</a>
+                  <a class="text-white text-decoration-none me-4" href="#">News</a>
+                  <a class="text-white text-decoration-none me-4" href="#">Contact</a>
+                </div>
+                <div class="my-4 justify-content-space-between">
+                  <a class="text-white me-3" href="#"><i class="bi bi-facebook "></i></a>
+                     <a class="text-white me-3" href="#"><i class="bi bi-twitter "></i></a>
+                    <a class="text-white me-3" href="#"><i class="bi bi-instagram "></i></a>
+                </div>
+                <span class="text-white">
+                  Copyright 2022. Federal Ministry of Humanitarian Affairs, Disaster Management and Social Development. All Rights Reserved. </span>
+              </div>
+             
       
 
             

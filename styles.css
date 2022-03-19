@@ -7,3 +7,9 @@
     text-align: center;
     padding-right: 5rem;
 }
+
+/* about page */
+.header{
+    background-image: url(./images/Photos/about1ed.jpg);
+    text-align: center;
+}
